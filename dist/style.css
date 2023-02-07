@@ -1,0 +1,63 @@
+html{
+    border: none;
+}
+
+#header-banner {
+    background-color: red;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 150px;
+    row-gap: 30px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 230px;
+    text-align: center;
+    box-shadow: 10px 10px 15px grey;
+
+}
+
+.title-container {
+    background-color: blue;
+    color: white;
+    padding: 0 20px;
+    
+}
+
+.title-container h4 {
+    font-size: 25px;
+}
+
+.role-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px
+}   
+.role-container img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.employee-attributes-container {
+    background-color: powderblue;
+}
+.employee-attributes {
+    margin: 30px 15px;
+    background-color: whitesmoke;
+}
+
+.attribute {
+    border: 1px solid black;
+}
+
