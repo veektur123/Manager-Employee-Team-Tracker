@@ -1,0 +1,29 @@
+{
+  "name": "manager-employee-team-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest _tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veektur123/Manager-Employee-Team-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veektur123/Manager-Employee-Team-Tracker/issues"
+  },
+  "homepage": "https://github.com/veektur123/Manager-Employee-Team-Tracker#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  },
+  "dependencies": {
+    "inquirer": "8.0.0"
+  }
+}
